@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(208, 255, 239);
+}
+
+h1 {
+    text-align: center;
+    margin-top: auto;
+}
+
+p {
+    flex-wrap: wrap;
+    margin-top: 1px;
+    text-align: left;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+img {
+    max-width: 90%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.flex>div {
+    margin-top: 0.5px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+}
+
+.selected {
+    opacity: 0.4;
+}
